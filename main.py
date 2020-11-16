@@ -56,13 +56,14 @@ def spider(url, word, maxPages):
     pagesToVisit = [url]
     numberVisited = 0
     foundWord = False
+    successfulUrls = []
     # The main loop. Create a LinkParser and get all the links on the page.
     # Also search the page for the word or string
     # In our getLinks function we return the web page
     # (this is useful for searching for the word)
     # and we return a set of links from that web page
     # (this is useful for where to go next)
-    while numberVisited < maxPages and pagesToVisit != [] and not foundWord:
+    while numberVisited < maxPages and pagesToVisit != []:
         numberVisited = numberVisited + 1
         # Start from the beginning of our collection of pages to visit:
         url = pagesToVisit[0]
@@ -73,6 +74,7 @@ def spider(url, word, maxPages):
             data, links = parser.getLinks(url)
             if data.find(word) > -1:
                 foundWord = True
+                successfulUrls.append(url)
                 # Add the pages that we visited to the end of our collection
                 # of pages to visit:
                 pagesToVisit = pagesToVisit + links
@@ -80,9 +82,15 @@ def spider(url, word, maxPages):
         except:
             print(" **Failed!**")
     if foundWord:
-        print("The word", word, "was found at", url)
+        print("The desired word was found at the following URLs:")
+        while successfulUrls != []:
+            print(successfulUrls[0])
+            successfulUrls = successfulUrls[1:]
     else:
         print("Word never found")
 
 
-spider("http://www.dreamhost.com", "secure", 200)
+
+
+
+spider("http://www.dreamhost.com", "Purpose", 100)
