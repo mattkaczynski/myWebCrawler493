@@ -43,6 +43,7 @@ class Group2Spider(CrawlSpider):
         count_choice = 0
         word_list = [
             "happy",
+            "Happiness"
         ]
 
         for d in self.__class__.allowed_domains:
@@ -65,15 +66,18 @@ class Group2Spider(CrawlSpider):
                     return ()
     
     def closed(self, reason):
-        total= 0
+        total_words= 0
+        total_pages = 0
         for words in self.__class__.words_found:
-            total += words
-        print("Total instances of happines found across " + str(self.__class__.domains) + " domains with a limit of " + str(self.__class__.crawl_limit) + " pages crawled per domain:" + str(total))
-        print("Total pages crawled:" + str(self.__class__.crawl_count))
+            total_words += words
+        for p in self.__class__.crawl_count:
+            total_pages += p
+        print("Total instances of happiness found across " + str(self.__class__.domains) + " domains with a limit of " + str(self.__class__.crawl_limit) + " pages crawled per domain:" + str(total_words))
+        print("Total pages crawled:" + str(total_pages))
         print()
         for d in self.__class__.allowed_domains:
             print("pages crawled on " + d)
             for pages in self.__class__.pages[self.__class__.allowed_domains.index(d)]:
                 print(pages)
-            print("Total domain, " + d + ", happines: " + str(self.__class__.words_found[self.__class__.allowed_domains.index(d)]))
+            print("Total domain, " + d + ", happiness: " + str(self.__class__.words_found[self.__class__.allowed_domains.index(d)]))
             print()
