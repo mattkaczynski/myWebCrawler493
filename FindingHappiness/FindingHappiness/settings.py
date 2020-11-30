@@ -14,11 +14,11 @@ NEWSPIDER_MODULE = 'FindingHappiness.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'FindingHappiness (+http://www.yourdomain.com)'
+USER_AGENT = 'FindingHappiness (https://github.com/mattkaczynski/myWebCrawler493)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
-DEPTH_LIMIT= 2
+DEPTH_LIMIT= 10
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
