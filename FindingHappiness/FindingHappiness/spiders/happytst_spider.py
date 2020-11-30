@@ -30,12 +30,12 @@ class Group2Spider(CrawlSpider):
     crawl_count =[0, 0, 0]  # used to keep track of the pages crawled, Author: https://www.phooky.com/blog/post/find-specific-words-on-web-pages-with-scrapy/ Modified By: Tim
     words_found = [0, 0, 0]  # used to keep track of the number of instances of happy found, Author: https://www.phooky.com/blog/post/find-specific-words-on-web-pages-with-scrapy/, Modified By: Yasmin
     pages = [[],[],[]]  # used to hold the data to be printed from the pages crawled, Author: Yasmin
-    crawl_limit = 10  # used to limit number of pages visited Author: Group
+    crawl_limit = 100  # used to limit number of pages visited Author: Group
 
     # scrapy CrawlSpider fields
     name = "happy-go-lucky"  # name of spider, Named by group
-    allowed_domains = ["www.happythemovement.com", "www.happyplace.me", "www.happyspizza.com"]  # limits the domains spider is allowed to crawl Author: Mateusz, Yasmin
-    start_urls = ["http://www.happyplace.me", "http://www.happyspizza.com", "https://www.happythemovement.com" ]  # start URLs or Root URls for the spider, Author: Mateusz, Yasmin
+    allowed_domains = ["www.happythemovement.com", "www.happyplace.me", "www.happyspizza.com", "www.happy-harrys.com"]  # limits the domains spider is allowed to crawl Author: Mateusz, Yasmin
+    start_urls = ["http://www.happyplace.me", "http://www.happyspizza.com", "https://www.happythemovement.com", "https://www.happy-harrys.com"]  # start URLs or Root URls for the spider, Author: Mateusz, Yasmin
     rules = [Rule(LinkExtractor(), follow=True, callback="find_happy")]  # defines the rules for our crawler. Author: https://www.phooky.com/blog/post/find-specific-words-on-web-pages-with-scrapy/
 
     while len(words_found) < len(allowed_domains):  # append 0's to the words_found array until it's length is equal to the length of allowed_domains. Author: Yasmin, Edited by Tim
@@ -45,7 +45,7 @@ class Group2Spider(CrawlSpider):
     while len(crawl_count) < len(allowed_domains):  # append 0's to the crawk_count array until it's length is equal to the lenght of allowed_domains. Author: Tim
         crawl_count.append(0)
 
-    # this method is called on every link that the LinkExtractor finds within it's constraints
+    # this method is called on every link that the LinkExtractor finds within it's constraints and the start urls
     # the method searches the link contents for the desired words and updates the global variables accordingly
     # Author: Group
     def find_happy(self, response):
@@ -79,26 +79,26 @@ class Group2Spider(CrawlSpider):
                     return ()
 
     # this method is automatically called when the crawler finishes
-    # prints the results crawling results
+    # prints the crawling results
     # Author: Yasmin
     def closed(self, reason):
         total_words= 0  # variable that holds the total number of desired words found across all domains searched.
         total_pages = 0  # variable that holds the total number of pages crawled across all domains.
 
         # calculate the values for total_words and total_pages
-        for words in self.__class__.words_found:
-            total_words += words
+        for words in self.__class__.words_found: 
+            total_words += words 
         for p in self.__class__.crawl_count:
             total_pages += p
 
         # print the results from running the crawler
         print("Total instances of happiness found across " + str(self.__class__.domains) + " domains with a limit of " + str(self.__class__.crawl_limit) + " pages crawled per domain: " + str(total_words))
-        print("Total pages crawled:" + str(total_pages))
+        print("Total Pages Crawled:" + str(total_pages))
         print()
 
         # separate the results by domain for easy reading and comparison
         for d in self.__class__.allowed_domains:
-            print("pages crawled on " + d)
+            print("Pages Crawled on " + d + ": " + str(self.__class__.crawl_count[self.__class__.allowed_domains.index(d)]))
             for pages in self.__class__.pages[self.__class__.allowed_domains.index(d)]:
                 print(pages)
             print("Total domain, " + d + ", happiness: " + str(self.__class__.words_found[self.__class__.allowed_domains.index(d)]))
