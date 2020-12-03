@@ -42,7 +42,7 @@ class Group2Spider(CrawlSpider):
         words_found.append(0)
     while len(pages) < len(allowed_domains):  # append []'s to the pages array until it's length is equal to the length of allowed_domains. Author: Yasmin, Edited by Tim
         pages.append([])
-    while len(crawl_count) < len(allowed_domains):  # append 0's to the crawk_count array until it's length is equal to the lenght of allowed_domains. Author: Tim
+    while len(crawl_count) < len(allowed_domains):  # append 0's to the crawl_count array until it's length is equal to the lenght of allowed_domains. Author: Tim
         crawl_count.append(0)
 
     # this method is called on every link that the LinkExtractor finds within it's constraints and the start urls
@@ -75,7 +75,7 @@ class Group2Spider(CrawlSpider):
                             count = count + 1
                             self.__class__.words_found[count_choice] += 1
                     self.__class__.pages[count_choice].append(
-                        "Page Crawled: " + url + "; Page Happy Score: " + str(count) + "; ")  # add a string containing the results of the word search to 'pages' array. this will be rpinted later.
+                        "Page Crawled: " + url + "; Page Happy Score: " + str(count) + "; ")  # add a string containing the results of the word search to 'pages' array. this will be printed later.
                     return ()
 
     # this method is automatically called when the crawler finishes
