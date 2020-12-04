@@ -1,37 +1,168 @@
-Total instances of happiness found across 3 domains with a limit of 10 pages crawled per domain:4859
-Total pages crawled:25
+Total instances of happiness found across 4 domains with a limit of 100 pages crawled per domain: 41705
+Total Pages Crawled:152
+Total time it took:0:14:21.792015
 
-pages crawled on www.happythemovement.com
+Pages Crawled on www.happythemovement.com: 9
 Page Crawled: https://www.happythemovement.com/; Page Happy Score: 96; 
-Page Crawled: https://www.happythemovement.com/app; Page Happy Score: 55; 
-Page Crawled: https://www.happythemovement.com/aha; Page Happy Score: 61; 
-Page Crawled: https://www.happythemovement.com/workplace; Page Happy Score: 60; 
-Page Crawled: https://www.happythemovement.com/science; Page Happy Score: 53; 
-Page Crawled: https://www.happythemovement.com/payers; Page Happy Score: 54; 
-Page Crawled: https://www.happythemovement.com/movement; Page Happy Score: 57; 
 Page Crawled: https://www.happythemovement.com/home; Page Happy Score: 96; 
+Page Crawled: https://www.happythemovement.com/aha; Page Happy Score: 61; 
+Page Crawled: https://www.happythemovement.com/payers; Page Happy Score: 54; 
+Page Crawled: https://www.happythemovement.com/science; Page Happy Score: 53; 
 Page Crawled: https://www.happythemovement.com/givers/; Page Happy Score: 67; 
+Page Crawled: https://www.happythemovement.com/workplace; Page Happy Score: 60; 
+Page Crawled: https://www.happythemovement.com/movement; Page Happy Score: 57; 
+Page Crawled: https://www.happythemovement.com/app; Page Happy Score: 55; 
 Total domain, www.happythemovement.com, happiness: 599
 
-pages crawled on www.happyplace.me
+Pages Crawled on www.happyplace.me: 7
 Page Crawled: https://www.happyplace.me/usa-contact; Page Happy Score: 62; 
-Page Crawled: https://www.happyplace.me/what-to-expect; Page Happy Score: 63; 
-Page Crawled: https://www.happyplace.me/; Page Happy Score: 77; 
-Page Crawled: https://www.happyplace.me/faq; Page Happy Score: 90; 
-Page Crawled: https://www.happyplace.me/thedrivethru; Page Happy Score: 76; 
 Page Crawled: https://www.happyplace.me/contact; Page Happy Score: 62; 
-Total domain, www.happyplace.me, happiness: 430
+Page Crawled: https://www.happyplace.me/thedrivethru; Page Happy Score: 78; 
+Page Crawled: https://www.happyplace.me/safer; Page Happy Score: 56; 
+Page Crawled: https://www.happyplace.me/what-to-expect; Page Happy Score: 63; 
+Page Crawled: https://www.happyplace.me/faq; Page Happy Score: 90; 
+Page Crawled: https://www.happyplace.me/; Page Happy Score: 79; 
+Total domain, www.happyplace.me, happiness: 490
 
-pages crawled on www.happyspizza.com
-Page Crawled: https://www.happyspizza.com/; Page Happy Score: 466; 
-Page Crawled: https://www.happyspizza.com/about/; Page Happy Score: 365; 
-Page Crawled: https://www.happyspizza.com/legal/; Page Happy Score: 378; 
-Page Crawled: https://www.happyspizza.com/contact/; Page Happy Score: 382; 
-Page Crawled: https://www.happyspizza.com/franchising/financial-info/; Page Happy Score: 360; 
-Page Crawled: https://www.happyspizza.com/locations/; Page Happy Score: 352; 
-Page Crawled: https://www.happyspizza.com/franchising/; Page Happy Score: 399; 
-Page Crawled: https://www.happyspizza.com/catering/; Page Happy Score: 386; 
-Page Crawled: https://www.happyspizza.com/nutrition-info/; Page Happy Score: 357; 
-Page Crawled: https://www.happyspizza.com/50k-free-kids-meals/; Page Happy Score: 385; 
-Total domain, www.happyspizza.com, happiness: 3830
+Pages Crawled on www.happyspizza.com: 36
+Page Crawled: https://www.happyspizza.com/contact/; Page Happy Score: 384; 
+Page Crawled: https://www.happyspizza.com/franchising/financial-info/; Page Happy Score: 362; 
+Page Crawled: https://www.happyspizza.com/legal/; Page Happy Score: 380; 
+Page Crawled: https://www.happyspizza.com/news/; Page Happy Score: 490; 
+Page Crawled: https://www.happyspizza.com/about/; Page Happy Score: 367; 
+Page Crawled: https://www.happyspizza.com/news/coronavirus-what-were-doing-to-prioritize-your-health/; Page Happy Score: 374; 
+Page Crawled: https://www.happyspizza.com/nutrition-info/; Page Happy Score: 359; 
+Page Crawled: https://www.happyspizza.com/50k-free-kids-meals/; Page Happy Score: 387; 
+Page Crawled: https://www.happyspizza.com/locations/; Page Happy Score: 354; 
+Page Crawled: https://www.happyspizza.com/careers/; Page Happy Score: 390; 
+Page Crawled: https://www.happyspizza.com/franchising/; Page Happy Score: 401; 
+Page Crawled: https://www.happyspizza.com/news/page/2/; Page Happy Score: 442; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-burton-gives-away-free-pizzas/; Page Happy Score: 379; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-toledo-gives-back-to-cherry-street-mission/; Page Happy Score: 381; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-offers-free-pizza-for-national-cheese-pizza-day/; Page Happy Score: 380; 
+Page Crawled: https://www.happyspizza.com/news/dearborn-heights-community-welcomes-a-second-happys-pizza/; Page Happy Score: 379; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-serves-up-meal-at-local-burton-mi-shelter/; Page Happy Score: 383; 
+Page Crawled: https://www.happyspizza.com/news/fox-47-welcomes-happys-pizza-to-jackson-mi/; Page Happy Score: 380; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-opens-in-jackson-mi/; Page Happy Score: 380; 
+Page Crawled: https://www.happyspizza.com/50k-free-kids-meals/week-1/; Page Happy Score: 580; 
+Page Crawled: https://www.happyspizza.com/50k-free-kids-meals/week-2/; Page Happy Score: 436; 
+Page Crawled: https://www.happyspizza.com/50k-free-kids-meals/week-3/; Page Happy Score: 421; 
+Page Crawled: https://www.happyspizza.com/50k-free-kids-meals/week-4/; Page Happy Score: 461; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-helps-make-camaris-make-a-wish-special/; Page Happy Score: 380; 
+Page Crawled: https://www.happyspizza.com/news/fox-2-detroit-reports-on-happys-pizza-and-detroit-polices-free-meals-for-families/; Page Happy Score: 383; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-kids-meal-giveaway-featured-on-local-4-click-on-detroit/; Page Happy Score: 377; 
+Page Crawled: https://www.happyspizza.com/news/happy-to-help-the-homeless/; Page Happy Score: 375; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-donates-2500-coats-to-detroit-kids/; Page Happy Score: 381; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-coats-4-kids-2015-photos/; Page Happy Score: 380; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-elevate-detroit/; Page Happy Score: 384; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-helps-pay-tribute-to-a-queen/; Page Happy Score: 380; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-teams-up-with-elevate-detroit-to-help-flint/; Page Happy Score: 395; 
+Page Crawled: https://www.happyspizza.com/news/happys-pizza-and-whats-up-detroit-launch-flint-paper-product-drive/; Page Happy Score: 380; 
+Page Crawled: https://www.happyspizza.com/news/dayton-happys-pizza-owner-pays-it-forward/; Page Happy Score: 378; 
+Page Crawled: https://www.happyspizza.com/catering/; Page Happy Score: 388; 
+Page Crawled: https://www.happyspizza.com/; Page Happy Score: 468; 
+Total domain, www.happyspizza.com, happiness: 14299
+
+Pages Crawled on www.happy-harrys.com: 100
+Page Crawled: https://www.happy-harrys.com/wild-terra-cider-fargo-nd/; Page Happy Score: 250; 
+Page Crawled: https://www.happy-harrys.com/cigar-guide/; Page Happy Score: 254; 
+Page Crawled: https://www.happy-harrys.com/welcome-to-our-new-website/; Page Happy Score: 249; 
+Page Crawled: https://www.happy-harrys.com/category/cigars/; Page Happy Score: 222; 
+Page Crawled: https://www.happy-harrys.com/drumconrath-brewing/; Page Happy Score: 276; 
+Page Crawled: https://www.happy-harrys.com/category/latest-news/; Page Happy Score: 299; 
+Page Crawled: https://www.happy-harrys.com/category/beer/beer-of-the-month/; Page Happy Score: 302; 
+Page Crawled: https://www.happy-harrys.com/category/beer/; Page Happy Score: 302; 
+Page Crawled: https://www.happy-harrys.com/new-belgium-brewing-december-2020/; Page Happy Score: 271; 
+Page Crawled: https://www.happy-harrys.com/hhdirect/; Page Happy Score: 310; 
+Page Crawled: https://www.happy-harrys.com/category/latest-news/page/2/; Page Happy Score: 279; 
+Page Crawled: https://www.happy-harrys.com/videos/; Page Happy Score: 154; 
+Page Crawled: https://www.happy-harrys.com/cigar-city-brewing/; Page Happy Score: 279; 
+Page Crawled: https://www.happy-harrys.com/utepils-brewing/; Page Happy Score: 301; 
+Page Crawled: https://www.happy-harrys.com/bemidji-brewing/; Page Happy Score: 262; 
+Page Crawled: https://www.happy-harrys.com/lake-of-the-woods-brewing-company/; Page Happy Score: 286; 
+Page Crawled: https://www.happy-harrys.com/category/beer/beer-of-the-month/page/2/; Page Happy Score: 280; 
+Page Crawled: https://www.happy-harrys.com/category/recipes/mixed-drinks/; Page Happy Score: 288; 
+Page Crawled: https://www.happy-harrys.com/wine-food/; Page Happy Score: 157; 
+Page Crawled: https://www.happy-harrys.com/category/beer/page/2/; Page Happy Score: 280; 
+Page Crawled: https://www.happy-harrys.com/party-planner/; Page Happy Score: 154; 
+Page Crawled: https://www.happy-harrys.com/cigars/; Page Happy Score: 167; 
+Page Crawled: https://www.happy-harrys.com/liquor-cordials/; Page Happy Score: 191; 
+Page Crawled: https://www.happy-harrys.com/growlers/; Page Happy Score: 161; 
+Page Crawled: https://www.happy-harrys.com/beer/; Page Happy Score: 182; 
+Page Crawled: https://www.happy-harrys.com/wine-101/; Page Happy Score: 189; 
+Page Crawled: https://www.happy-harrys.com/happy-harrys-direct-offer-no-1/; Page Happy Score: 190; 
+Page Crawled: https://www.happy-harrys.com/category/latest-news/page/3/; Page Happy Score: 274; 
+Page Crawled: https://www.happy-harrys.com/rhombus-guys-brewing-company/; Page Happy Score: 288; 
+Page Crawled: https://www.happy-harrys.com/lupulin-brewing-company/; Page Happy Score: 280; 
+Page Crawled: https://www.happy-harrys.com/toppling-goliath-brewing/; Page Happy Score: 271; 
+Page Crawled: https://www.happy-harrys.com/vander-mill-cider-just-in-time-for-the-fall/; Page Happy Score: 256; 
+Page Crawled: https://www.happy-harrys.com/blakes-hard-cider-company/; Page Happy Score: 263; 
+Page Crawled: https://www.happy-harrys.com/category/beer/beer-of-the-month/page/3/; Page Happy Score: 276; 
+Page Crawled: https://www.happy-harrys.com/category/recipes/mixed-drinks/page/2/; Page Happy Score: 235; 
+Page Crawled: https://www.happy-harrys.com/margaritas-101/; Page Happy Score: 258; 
+Page Crawled: https://www.happy-harrys.com/category/beer/page/3/; Page Happy Score: 285; 
+Page Crawled: https://www.happy-harrys.com/category/holidays/; Page Happy Score: 292; 
+Page Crawled: https://www.happy-harrys.com/halloween-cocktail-ideas/; Page Happy Score: 290; 
+Page Crawled: https://www.happy-harrys.com/category/bourbon/; Page Happy Score: 257; 
+Page Crawled: https://www.happy-harrys.com/kentucky-derby-2016/; Page Happy Score: 261; 
+Page Crawled: https://www.happy-harrys.com/meukow-cognac/; Page Happy Score: 333; 
+Page Crawled: https://www.happy-harrys.com/food-and-wine-pairing-guide/; Page Happy Score: 240; 
+Page Crawled: https://www.happy-harrys.com/category/wine/; Page Happy Score: 281; 
+Page Crawled: https://www.happy-harrys.com/category/latest-news/page/4/; Page Happy Score: 289; 
+Page Crawled: https://www.happy-harrys.com/laughing-sun-brewing/; Page Happy Score: 301; 
+Page Crawled: https://www.happy-harrys.com/10-barrel-brewing-co/; Page Happy Score: 254; 
+Page Crawled: https://www.happy-harrys.com/lift-bridge-brewing/; Page Happy Score: 268; 
+Page Crawled: https://www.happy-harrys.com/destihl-brewery/; Page Happy Score: 268; 
+Page Crawled: https://www.happy-harrys.com/elysian-brewing-company/; Page Happy Score: 252; 
+Page Crawled: https://www.happy-harrys.com/category/beer/beer-of-the-month/page/4/; Page Happy Score: 279; 
+Page Crawled: https://www.happy-harrys.com/wine-cocktails/; Page Happy Score: 253; 
+Page Crawled: https://www.happy-harrys.com/vodka-vs-gin/; Page Happy Score: 251; 
+Page Crawled: https://www.happy-harrys.com/category/beer/page/4/; Page Happy Score: 279; 
+Page Crawled: https://www.happy-harrys.com/category/holidays/page/2/; Page Happy Score: 249; 
+Page Crawled: https://www.happy-harrys.com/category/recipes/food-recipes/; Page Happy Score: 280; 
+Page Crawled: https://www.happy-harrys.com/alternatives-to-highly-allocated-bourbon-rye-buying-guide/; Page Happy Score: 291; 
+Page Crawled: https://www.happy-harrys.com/barrell-bourbon-and-spirits/; Page Happy Score: 253; 
+Page Crawled: https://www.happy-harrys.com/thanksgiving-2015-quick-and-easy-wine-and-beer-pairings/; Page Happy Score: 244; 
+Page Crawled: https://www.happy-harrys.com/valentines-day-wine-pairings/; Page Happy Score: 241; 
+Page Crawled: https://www.happy-harrys.com/category/wine/page/2/; Page Happy Score: 290; 
+Page Crawled: https://www.happy-harrys.com/category/latest-news/page/5/; Page Happy Score: 278; 
+Page Crawled: https://www.happy-harrys.com/sierra-nevada-brewing-company/; Page Happy Score: 280; 
+Page Crawled: https://www.happy-harrys.com/beaver-island-brewing-company/; Page Happy Score: 292; 
+Page Crawled: https://www.happy-harrys.com/woodford-reserve-happy-harrys-batch-1/; Page Happy Score: 361; 
+Page Crawled: https://www.happy-harrys.com/shannon-ridge-zinfandel-paired-with-bbq-ribs/; Page Happy Score: 253; 
+Page Crawled: https://www.happy-harrys.com/spaghetti-and-meatballs-paired-with-piattelli-malbec/; Page Happy Score: 265; 
+Page Crawled: https://www.happy-harrys.com/category/beer/beer-of-the-month/page/5/; Page Happy Score: 277; 
+Page Crawled: https://www.happy-harrys.com/loon-juice-cider-company/; Page Happy Score: 269; 
+Page Crawled: https://www.happy-harrys.com/stone-brewing/; Page Happy Score: 258; 
+Page Crawled: https://www.happy-harrys.com/category/beer/page/5/; Page Happy Score: 278; 
+Page Crawled: https://www.happy-harrys.com/easter-recipes-and-wine-pairings/; Page Happy Score: 277; 
+Page Crawled: https://www.happy-harrys.com/category/recipes/food-recipes/page/2/; Page Happy Score: 261; 
+Page Crawled: https://www.happy-harrys.com/la-crema-willamette-pinot-noir-and-prime-rib/; Page Happy Score: 258; 
+Page Crawled: https://www.happy-harrys.com/can-blau-spanish-red-paired-with-the-ultimate-paella/; Page Happy Score: 250; 
+Page Crawled: https://www.happy-harrys.com/ready-to-drink-cocktails-makes-entertaining-easy/; Page Happy Score: 255; 
+Page Crawled: https://www.happy-harrys.com/grilled-flatbread-paired-with-fleur-de-mer-rose/; Page Happy Score: 274; 
+Page Crawled: https://www.happy-harrys.com/category/wine/page/3/; Page Happy Score: 308; 
+Page Crawled: https://www.happy-harrys.com/category/latest-news/page/6/; Page Happy Score: 275; 
+Page Crawled: https://www.happy-harrys.com/uinta-brewing-company/; Page Happy Score: 283; 
+Page Crawled: https://www.happy-harrys.com/bet-vodka/; Page Happy Score: 256; 
+Page Crawled: https://www.happy-harrys.com/red-pine-spirits-grand-forks-north-dakota/; Page Happy Score: 268; 
+Page Crawled: https://www.happy-harrys.com/wine-and-cheese-tips-on-how-to-make-the-perfect-pair/; Page Happy Score: 258; 
+Page Crawled: https://www.happy-harrys.com/its-grillin-season/; Page Happy Score: 258; 
+Page Crawled: https://www.happy-harrys.com/category/beer/beer-of-the-month/page/6/; Page Happy Score: 279; 
+Page Crawled: https://www.happy-harrys.com/boston-beer-company-samuel-adams/; Page Happy Score: 257; 
+Page Crawled: https://www.happy-harrys.com/ballast-point-brewery/; Page Happy Score: 271; 
+Page Crawled: https://www.happy-harrys.com/category/beer/page/6/; Page Happy Score: 278; 
+Page Crawled: https://www.happy-harrys.com/breckenridge-brewery/; Page Happy Score: 263; 
+Page Crawled: https://www.happy-harrys.com/golden-road-brewery/; Page Happy Score: 270; 
+Page Crawled: https://www.happy-harrys.com/boulevard-brewing-company/; Page Happy Score: 306; 
+Page Crawled: https://www.happy-harrys.com/bailarin-cellers-north-dakota-roots/; Page Happy Score: 268; 
+Page Crawled: https://www.happy-harrys.com/kung-fu-girl-riesling-paired-with-asian-bbq-chicken/; Page Happy Score: 259; 
+Page Crawled: https://www.happy-harrys.com/irish-whiskey-reviews-for-st-patricks-day-2016/; Page Happy Score: 266; 
+Page Crawled: https://www.happy-harrys.com/category/wine/page/4/; Page Happy Score: 278; 
+Page Crawled: https://www.happy-harrys.com/category/latest-news/page/7/; Page Happy Score: 278; 
+Page Crawled: https://www.happy-harrys.com/summer-coktails-with-titos/; Page Happy Score: 263; 
+Page Crawled: https://www.happy-harrys.com/fortified-wines/; Page Happy Score: 257; 
+Page Crawled: https://www.happy-harrys.com/german-wines/; Page Happy Score: 257; 
+Page Crawled: https://www.happy-harrys.com/orgain-wines/; Page Happy Score: 258; 
+Total domain, www.happy-harrys.com, happiness: 26317
 

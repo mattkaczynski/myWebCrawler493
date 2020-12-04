@@ -29,25 +29,24 @@ def find_all_substrings(string, sub):
 
 class Group2Spider(CrawlSpider):
     # global variables
-    domains = 3  # used to print number of domains by the closed function, Author: Yasmin
     crawl_count =[0, 0, 0]  # used to keep track of the pages crawled, Author: https://www.phooky.com/blog/post/find-specific-words-on-web-pages-with-scrapy/ Modified By: Tim
     words_found = [0, 0, 0]  # used to keep track of the number of instances of happy found, Author: https://www.phooky.com/blog/post/find-specific-words-on-web-pages-with-scrapy/, Modified By: Yasmin
     pages = [[],[],[]]  # used to hold the data to be printed from the pages crawled, Author: Yasmin
     crawl_limit = 100  # used to limit number of pages visited Author: Group
-
     # scrapy CrawlSpider fields
     name = "happy-go-lucky"  # name of spider, Named by group
     allowed_domains = ["www.happythemovement.com", "www.happyplace.me", "www.happyspizza.com", "www.happy-harrys.com"]  # limits the domains spider is allowed to crawl Author: Mateusz, Yasmin
+    domains = len(allowed_domains) # used to print number of domains by the closed function, Author: Yasmin
     start_urls = ["http://www.happyplace.me", "http://www.happyspizza.com", "https://www.happythemovement.com", "https://www.happy-harrys.com"]  # start URLs or Root URls for the spider, Author: Mateusz, Yasmin
-    rules = [Rule(LinkExtractor(deny=(["^.*?(/.+?/).*?\1.*$|^.*?/(.+?/)\2.*$","^.*/[^/]{300,}$"])), follow=True, callback="find_happy")]  # defines the rules for our crawler. Author: https://www.phooky.com/blog/post/find-specific-words-on-web-pages-with-scrapy/
+    rules = [Rule(LinkExtractor(deny=(["^.*?(/.+?/).*?\1.*$|^.*?/(.+?/)\2.*$","^.*/[^/]{300,}$"])), follow=True, callback="find_happy")]  # defines the rules for our crawler. Author: https://www.phooky.com/blog/post/find-specific-words-on-web-pages-with-scrapy/ Modified by: Sujith
     #regular expressions from https://support.archive-it.org/hc/en-us/articles/208332963-How-to-modify-your-crawl-scope-with-a-Regular-Expression, added by Marian, Sujith
     #With the regex, the LinkExtractor denys commons traps such as repeating directories and long invalid url's.
 
-    while len(words_found) < len(allowed_domains):  # append 0's to the words_found array until it's length is equal to the length of allowed_domains. Author: Yasmin, Edited by Tim
+    while len(words_found) < domains:  # append 0's to the words_found array until it's length is equal to the length of allowed_domains. Author: Yasmin, Edited by Tim
         words_found.append(0)
-    while len(pages) < len(allowed_domains):  # append []'s to the pages array until it's length is equal to the length of allowed_domains. Author: Yasmin, Edited by Tim
+    while len(pages) < domains:  # append []'s to the pages array until it's length is equal to the length of allowed_domains. Author: Yasmin, Edited by Tim
         pages.append([])
-    while len(crawl_count) < len(allowed_domains):  # append 0's to the crawl_count array until it's length is equal to the lenght of allowed_domains. Author: Tim
+    while len(crawl_count) < domains:  # append 0's to the crawl_count array until it's length is equal to the lenght of allowed_domains. Author: Tim
         crawl_count.append(0)
 
     # this method is called on every link that the LinkExtractor finds within it's constraints and the start urls
@@ -95,7 +94,6 @@ class Group2Spider(CrawlSpider):
             total_words += words 
         for p in self.__class__.crawl_count:
             total_pages += p
-
         # print the results from running the crawler
         print("Total instances of happiness found across " + str(self.__class__.domains) + " domains with a limit of " + str(self.__class__.crawl_limit) + " pages crawled per domain: " + str(total_words))
         print("Total Pages Crawled:" + str(total_pages))
