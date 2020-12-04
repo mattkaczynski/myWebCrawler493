@@ -16,7 +16,7 @@ from urllib.parse import urlparse
 from datetime import datetime
 
 
-start=datetime.now()  #get the initial time, Author: Sujith
+start=datetime.now()  #get the initial time, Author: Sujith, Marian
 
 # returns an array of indexes that correspond to the start of any substrings 'sub' in the string 'string'
 # in our case, 'string' will be the contents of the webpage and 'sub' will be "happy" or "happiness"
@@ -39,7 +39,9 @@ class Group2Spider(CrawlSpider):
     name = "happy-go-lucky"  # name of spider, Named by group
     allowed_domains = ["www.happythemovement.com", "www.happyplace.me", "www.happyspizza.com", "www.happy-harrys.com"]  # limits the domains spider is allowed to crawl Author: Mateusz, Yasmin
     start_urls = ["http://www.happyplace.me", "http://www.happyspizza.com", "https://www.happythemovement.com", "https://www.happy-harrys.com"]  # start URLs or Root URls for the spider, Author: Mateusz, Yasmin
-    rules = [Rule(LinkExtractor(), follow=True, callback="find_happy")]  # defines the rules for our crawler. Author: https://www.phooky.com/blog/post/find-specific-words-on-web-pages-with-scrapy/
+    rules = [Rule(LinkExtractor(deny=(["^.*?(/.+?/).*?\1.*$|^.*?/(.+?/)\2.*$","^.*/[^/]{300,}$"])), follow=True, callback="find_happy")]  # defines the rules for our crawler. Author: https://www.phooky.com/blog/post/find-specific-words-on-web-pages-with-scrapy/
+    #regular expressions from https://support.archive-it.org/hc/en-us/articles/208332963-How-to-modify-your-crawl-scope-with-a-Regular-Expression, added by Marian, Sujith
+    #With the regex, the LinkExtractor denys commons traps such as repeating directories and long invalid url's.
 
     while len(words_found) < len(allowed_domains):  # append 0's to the words_found array until it's length is equal to the length of allowed_domains. Author: Yasmin, Edited by Tim
         words_found.append(0)
