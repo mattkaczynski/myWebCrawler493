@@ -13,7 +13,10 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from urllib.parse import urlparse
+from datetime import datetime
 
+
+start=datetime.now()  #get the initial time, Author: Sujith
 
 # returns an array of indexes that correspond to the start of any substrings 'sub' in the string 'string'
 # in our case, 'string' will be the contents of the webpage and 'sub' will be "happy" or "happiness"
@@ -94,6 +97,7 @@ class Group2Spider(CrawlSpider):
         # print the results from running the crawler
         print("Total instances of happiness found across " + str(self.__class__.domains) + " domains with a limit of " + str(self.__class__.crawl_limit) + " pages crawled per domain: " + str(total_words))
         print("Total Pages Crawled:" + str(total_pages))
+        print("Total time it took:"+ str(datetime.now()-start))
         print()
 
         # separate the results by domain for easy reading and comparison
